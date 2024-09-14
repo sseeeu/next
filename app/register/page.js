@@ -23,7 +23,7 @@ export default function Register() {
 
   return (
     <div className="max-w-md mx-auto mt-10 p-6 bg-white shadow-lg rounded">
-      <h1 className="text-2xl font-bold mb-6">Register</h1>
+      <h1 className="text-2xl font-bold mb-6  text-black">Register</h1>
       <form onSubmit={handleRegister}>
         <input
           type="text"
